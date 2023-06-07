@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbf23fc-5a3b-450b-b931-262f62457ebc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/LeftMarkIconProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/LeftMarkIconProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/AddReviewCommentUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/AddReviewCommentUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ManageReviewCommentUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ManageReviewCommentUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/NetworkConfigUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/NetworkConfigUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ReviewCommentDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ReviewCommentDialog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="426" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4218391" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -94,8 +94,8 @@
     </configuration>
     <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="IntellijIDEA-CodeReview-Plugin" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms512m -ea" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,6 +110,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CryptoUtil" />
+      <item itemvalue="Application.ReviewFieldConfigUI" />
+      <item itemvalue="Plugin.Plugin" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CryptoUtil" />
@@ -157,5 +162,72 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/common/GlobalConfigManager.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/NetworkConfigUI.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ManageReviewCommentUI.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/common/NetworkOperationHelper.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/common/NetworkOperationHelper.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ManageReviewCommentUI.java</url>
+          <line>283</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ManageReviewCommentUI.java</url>
+          <line>588</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ManageReviewCommentUI.java</url>
+          <line>594</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ManageReviewCommentUI.java</url>
+          <line>599</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ManageReviewCommentUI.java</url>
+          <line>606</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/veezean/idea/plugin/codereviewer/action/ManageReviewCommentUI.java</url>
+          <line>631</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$PROJECT_DIR$/libs/hutool-all-5.4.2.jar!/cn/hutool/http/HttpRequest.class</url>
+          <line>42</line>
+          <properties field="CONTENT_TYPE_FILE_TEMPLATE" class="cn.hutool.http.HttpRequest" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

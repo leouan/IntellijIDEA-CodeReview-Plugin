@@ -4,7 +4,7 @@ import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONUtil;
 import com.alibaba.fastjson.TypeReference;
 import com.intellij.ide.plugins.PluginManagerCore;
-import com.intellij.openapi.extensions.PluginId;
+//import com.intellij.openapi.extensions.PluginId;
 import com.intellij.openapi.project.ProjectManager;
 import com.intellij.openapi.ui.Messages;
 import com.veezean.idea.plugin.codereviewer.common.GlobalConfigManager;
@@ -265,10 +265,10 @@ public class NetworkConfigUI extends JDialog {
         });
         serverDeployHelpButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 
-        String pluginVersion =
-                Objects.requireNonNull(PluginManagerCore.getPlugin(PluginId.getId("com.veezean.idea.plugin" +
-                        ".codereviewer"))).getVersion();
-        pluginCurrentVersionLabel.setText(pluginVersion == null ? "" : pluginVersion);
+//        String pluginVersion =
+//                Objects.requireNonNull(PluginManagerCore.getPlugin(PluginId.getId("com.veezean.idea.plugin" +
+//                        ".codereviewer"))).getVersion();
+//        pluginCurrentVersionLabel.setText(pluginVersion == null ? "" : pluginVersion);
 
         // 点击字段定制修改按钮
         modifyFieldButton.addActionListener(e -> FieldConfigUI.showConfigUI(NetworkConfigUI.this.getRootPane()));

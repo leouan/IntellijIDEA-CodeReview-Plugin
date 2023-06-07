@@ -238,6 +238,8 @@
             <constraints/>
             <properties>
               <autoCreateRowSorter value="true"/>
+              <enabled value="true"/>
+              <preferredScrollableViewportSize width="650" height="400"/>
             </properties>
             <clientProperties>
               <JTable.autoStartsEdit class="java.lang.Boolean" value="true"/>

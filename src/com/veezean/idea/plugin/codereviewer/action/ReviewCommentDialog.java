@@ -19,7 +19,7 @@ import java.util.Optional;
  */
 public class ReviewCommentDialog {
 
-    private static final int WIDTH = 900;
+    private static final int WIDTH = 1000;
     private static final int HEIGHT = 800;
 
     public static void show(ReviewComment model, Project project, int operateType) {
